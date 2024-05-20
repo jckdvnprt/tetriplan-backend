@@ -3,8 +3,7 @@ const patchTask = require("../utils/patchTask");
 
 async function testPatchTask() {
   try {
-    const taskIDToUpdate = "234";
-
+    const taskIDToUpdate = "1";
     const updatedFields = {
       description: "Updated description",
       category: "Updated category",
