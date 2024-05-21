@@ -2,15 +2,16 @@ const addTask = require("../utils/addTask");
 
 async function main() {
   try {
-    const taskID = 123;
+    const taskID = 1;
     const userID = 1;
-    const taskName = "Test Task 123";
-    const description = "This is a test task 123";
-    const category = "123";
+    const taskName = "Testing Task again";
+    const description = "This is a test task ";
+    const category = "test";
     const date = "2024-05-24";
+    const dateAdded = new Date();
     const startTime = "02:00";
     const endTime = "13:00";
-    const duration = "1 hour";
+    const duration = 60;
     const completionStatus = false;
     const label = "Test Label";
     const priority = "high";
@@ -22,6 +23,7 @@ async function main() {
       description,
       category,
       date,
+      dateAdded,
       startTime,
       endTime,
       duration,
